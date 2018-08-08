@@ -1,27 +1,17 @@
-# AngularDocker
+![image](https://malcoded.com/api/v1/48238e83-87dd-4b4f-be48-26ea7c89e8e7/asset/angular-docker.webp/png)
+# Angular in a Docker Container
+In this tutorial, we are going to take a close look at Docker and its containers.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+We will discover, how we can use Docker to build and host a simple angular application.
 
-## Development server
+For that, we will create a simple image to build angular and then use the Docker multi-stage feature to create another image to host our application using NGINX.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+We will then learn how we can build our Docker image in a container using Docker itself and Docker-Compose.
 
-## Code scaffolding
+At the end of this tutorial, you will have a angular application running in your own Docker container.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ready? 
 
-## Build
+Let's get started!
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[Read the full  article at malcoded.com!](https://malcoded.com/posts/angular-docker)
